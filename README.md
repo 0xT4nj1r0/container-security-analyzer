@@ -6,6 +6,10 @@ A web-based tool that analyzes docker-compose files for security vulnerabilities
 ![React](https://img.shields.io/badge/React-18.3.1-61dafb.svg)
 ![Vite](https://img.shields.io/badge/Vite-5.4.2-646cff.svg)
 
+## 🌐 Live Demo
+
+**Try it now:** [https://container-security-analyzer.vercel.app/](https://container-security-analyzer.vercel.app/)
+
 ## 🎯 What Does It Do?
 
 This tool analyzes your `docker-compose.yml` files to identify security vulnerabilities such as privileged mode, dangerous volume mounts, and host namespace sharing. It then generates a **secure, patched version** while preserving all safe configurations and functionality.
